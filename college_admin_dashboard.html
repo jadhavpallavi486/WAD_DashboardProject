@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Admin Dashboard</title>
+  <!-- Bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    <!-- -->
+    body {
+      background-image: url('back_image.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .sidebar {
+      background-color: #343a40;
+      color: #fff;
+      height: 100vh;
+    }
+    .sidebar-item {
+      padding: 15px 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .sidebar-item:hover {
+      background-color: #495057;
+    }
+    .content {
+      padding: 20px;
+    }
+    .card {
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .card-body {
+      background-color: #fff;
+      border-radius: 10px;
+    }
+    .card-title {
+      color: #6ee3f3;
+    }
+    .bright-text {
+      color: #fff; 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 sidebar">
+      <img src="logo.jpg" alt="Logo" class="img-fluid mx-auto d-block my-4" style="max-width: 40%;">
+      <ul class="list-unstyled">
+        <li class="sidebar-item">Dashboard</li>
+        <li class="sidebar-item">Students</li>
+        <li class="sidebar-item">Courses</li>
+        <li class="sidebar-item">Professors</li>
+        <li class="sidebar-item">Settings</li>
+      </ul>
+    </div>
+    <div class="col-md-9 content">
+      <h2 class="bright-text">Welcome to College Admin Dashboard</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Total Students</h5>
+              <p class="card-text">4500</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Total Courses</h5>
+              <p class="card-text">30</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Total Professors</h5>
+              <p class="card-text">50</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
